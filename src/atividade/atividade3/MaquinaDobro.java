@@ -14,4 +14,4 @@ public class MaquinaDobro {
         int resultado = calcularDobro(a);
         System.out.print("O dobro do núemro é: " + resultado);;
     }
-}.
+};

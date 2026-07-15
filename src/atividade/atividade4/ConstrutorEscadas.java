@@ -1,19 +1,19 @@
 package atividade.atividade4;
 
-import java.util.Scanner;
-
 public class ConstrutorEscadas {
+
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
 
-        int degraus = '1';
-        char simbolo = '#';
+        desenharEscada(4, '#');
+    }
 
-        for (int x=0;x<=10;x++){
-            for (int y=0;y<10;y++){
-                System.out.print(simbolo+" ");
+    public static void desenharEscada(int degraus, char simbolo) {
+        for (int linha = 1; linha <= degraus; linha++) {
+
+            for (int coluna = 1; coluna <= linha; coluna++) {
+                System.out.print(simbolo);
             }
-            System.out.print("\n"+simbolo+" ");
+            System.out.println();
         }
     }
 }
