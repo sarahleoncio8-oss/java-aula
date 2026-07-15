@@ -12,6 +12,6 @@ public class MaquinaDobro {
         System.out.print("Digite um número de sua pereferencia: ");
         int a = inicioResultado.nextInt();
         int resultado = calcularDobro(a);
-        System.out.print("O dobro do núemro é: " + resultado);
+        System.out.print("O dobro do núemro é: " + resultado);;
     }
-}
+}.
