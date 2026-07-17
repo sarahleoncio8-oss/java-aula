@@ -1,9 +1,9 @@
-package atividade.atividade5;
+package aulas.exemplos.aula6;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Dinamica {
+public class TarefasDinamicas {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         ArrayList<String> tarefas = new ArrayList<>();
