@@ -1,3 +1,15 @@
+//MELHORAR O ARQUIVO DE LISTA DE TAREFAS (Feito na Atividade 5)
+//
+//Criar um arquivo novo, numa pasta de Atividade6 e ele deve
+//conter as seguintes melhorias de código:
+//Ordenação de tarefas em ordem alfabetica/tadas
+//Metodo para remover tarefas espefícicas
+//> removerTarefas pelo metodo FIFO
+//> removerTarefas pelo metodo FEFO
+//> removerTarefas pelo metodo LIFO
+//        (Opicional) Adicionar um metodo que registre
+//as tarefas que foram concluídas
+
 package aulas.exemplos.aula6;
 
 import java.util.ArrayList;
