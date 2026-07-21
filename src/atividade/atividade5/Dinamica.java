@@ -4,25 +4,30 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Dinamica {
+
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+
+        Scanner scanner = new Scanner(System.in);
+
         ArrayList<String> tarefas = new ArrayList<>();
 
-        while (true){
-            System.out.print("Digite uma tarefa: ");
-            tarefas.add(entrada.nextLine());
+        String tarefa = "";
 
-            System.out.println("Deseja continuar?");
-            String opcao = entrada.nextLine();
+        while (!tarefa.equals("fim")) {
 
-            if (opcao.equals("fim")){
-                break;
+            System.out.print("Digite uma tarefa (ou 'fim' para encerrar): ");
+            tarefa = scanner.nextLine();
+
+            if (!tarefa.equals("fim")) {
+                tarefas.add(tarefa);
             }
         }
-        System.out.println("Total de tarefas registradas: "+tarefas.size());
+
+        System.out.println("Total de tarefas registradas: " + tarefas.size());
 
         for (int i = 0; i < tarefas.size(); i++) {
-            System.out.println((i+1)+". "+tarefas.get(i));
+            System.out.println((i + 1) + ". " + tarefas.get(i));
         }
+
     }
 }
