@@ -6,7 +6,7 @@ public class Carro extends Veiculo{
     String cambio;
     int quilometragem;
 
-    public void ligarArCondicinado(){
-        System.out.println("Ligando ar condicionado do meu carro");
+    public void ligarArCondicionado(){
+        System.out.println("Ligando o ar-condicionado do seu carro..");
     }
 }

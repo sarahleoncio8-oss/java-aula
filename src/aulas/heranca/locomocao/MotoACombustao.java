@@ -1,4 +1,4 @@
 package aulas.heranca.locomocao;
 
-public class MotoACombustao extends Moto {
+public class MotoACombustao extends Moto{
 }
